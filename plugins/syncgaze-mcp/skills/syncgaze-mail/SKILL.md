@@ -12,7 +12,8 @@ description: Use when the user works with their SyncGaze email, mailboxes or dom
 
 ## Common tasks
 - **Inbox summary:** `search_messages` (e.g. unread, today), then `get_message` only for the ones that matter. Group by what needs a reply.
-- **Reply:** `get_thread`, write the reply, `create_draft`, then `propose_send` when the user wants it sent. Mention the recipients so they can check them.
+- **Reply:** `get_thread`, write the reply, `create_draft` (with `reply_all` to include everyone), then `propose_send` when the user wants it sent. Mention the recipients so they can check them.
+- **Forward:** `propose_forward` with the message id, the recipients and an optional note; attachments go too unless the user says otherwise. It waits for the user's approval like a send.
 - **Domain setup:** `onboarding_status` first; it says the next step. Then `get_dns_records`, `check_dns` after the user adds records, `verify_domain`, then `propose_create_mailbox`.
 - **Mail not arriving / going to spam:** `diagnose` with the domain or mailbox; explain each finding and its fix in plain words, with the doc link it returns.
 - **How-to questions:** `search_docs` then `read_doc` and answer from the SyncGaze help centre, not from memory. If it cannot be fixed, offer `create_support_ticket`.
