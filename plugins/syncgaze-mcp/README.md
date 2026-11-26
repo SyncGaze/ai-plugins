@@ -9,3 +9,5 @@ The plugin adds the SyncGaze server (`https://mcp.syncgaze.in/mcp`) and a short 
 - Guide: https://mail.syncgaze.in/connect-ai/
 - Privacy: https://mail.syncgaze.in/privacy/
 - Support: support@syncgaze.in
+
+The MIT licence covers the files in this plugin. The SyncGaze service is governed by https://mail.syncgaze.in/terms/.
