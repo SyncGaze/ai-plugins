@@ -1,0 +1,10 @@
+{
+  "name": "syncgaze-mcp",
+  "displayName": "SyncGaze MCP",
+  "description": "Connect Claude to your SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval.",
+  "version": "1.0.0",
+  "author": { "name": "SyncGaze", "email": "support@syncgaze.in", "url": "https://syncgaze.in" },
+  "homepage": "https://mail.syncgaze.in/connect-ai/",
+  "license": "Proprietary",
+  "keywords": ["email", "mail", "syncgaze", "mcp", "dns", "domain"]
+}
