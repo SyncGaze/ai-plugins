@@ -1,0 +1,17 @@
+{
+  "name": "syncgaze",
+  "owner": {
+    "name": "SyncGaze",
+    "email": "support@syncgaze.in"
+  },
+  "metadata": {
+    "description": "Official SyncGaze plugins"
+  },
+  "plugins": [
+    {
+      "name": "syncgaze-mcp",
+      "source": "plugins/syncgaze-mcp",
+      "description": "Connect your AI to SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval."
+    }
+  ]
+}

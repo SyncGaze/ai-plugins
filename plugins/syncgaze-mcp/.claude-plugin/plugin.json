@@ -1,10 +1,27 @@
 {
   "name": "syncgaze-mcp",
   "displayName": "SyncGaze MCP",
-  "description": "Connect Claude to your SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval.",
-  "version": "1.0.0",
-  "author": { "name": "SyncGaze", "email": "support@syncgaze.in", "url": "https://syncgaze.in" },
+  "description": "Connect your AI to SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval.",
+  "version": "1.1.0",
+  "author": {
+    "name": "SyncGaze",
+    "email": "support@syncgaze.in",
+    "url": "https://mail.syncgaze.in"
+  },
   "homepage": "https://mail.syncgaze.in/connect-ai/",
+  "repository": "https://github.com/SyncGaze/claude-plugins",
   "license": "Proprietary",
-  "keywords": ["email", "mail", "syncgaze", "mcp", "dns", "domain"]
+  "keywords": [
+    "email",
+    "mail",
+    "syncgaze",
+    "mcp",
+    "dns",
+    "domain"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://mail.syncgaze.in/connect-ai/",
+  "supportUrl": "https://mail.syncgaze.in/connect-ai/#faq",
+  "privacyPolicyUrl": "https://mail.syncgaze.in/privacy/",
+  "termsOfServiceUrl": "https://mail.syncgaze.in/terms/"
 }

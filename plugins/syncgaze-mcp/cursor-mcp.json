@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "SyncGaze-MCP": {
+      "type": "http",
+      "url": "https://mcp.syncgaze.in/mcp"
+    }
+  }
+}

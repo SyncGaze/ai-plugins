@@ -1,0 +1,27 @@
+{
+  "name": "syncgaze-mcp",
+  "displayName": "SyncGaze MCP",
+  "version": "1.1.0",
+  "description": "Connect your AI to SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval.",
+  "author": {
+    "name": "SyncGaze",
+    "email": "support@syncgaze.in"
+  },
+  "homepage": "https://mail.syncgaze.in/connect-ai/",
+  "repository": "https://github.com/SyncGaze/claude-plugins",
+  "license": "Proprietary",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "email",
+    "mail",
+    "syncgaze",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "mcp",
+    "email",
+    "syncgaze"
+  ],
+  "mcpServers": "./cursor-mcp.json"
+}
