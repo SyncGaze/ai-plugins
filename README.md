@@ -9,11 +9,11 @@ Nothing is sent, deleted or changed until you approve it on SyncGaze.
 ## Install (one step)
 | App | How |
 |---|---|
-| **Claude app** | Plugins, **Add**, **Add marketplace**, enter `SyncGaze/claude-plugins`, install **SyncGaze MCP** |
-| **Claude Code** | `/plugin marketplace add SyncGaze/claude-plugins`, then `/plugin install syncgaze-mcp@syncgaze` |
-| **Codex / ChatGPT desktop** | `codex plugin marketplace add SyncGaze/claude-plugins`, then install **SyncGaze MCP** from Plugins |
+| **Claude app** | Plugins, **Add**, **Add marketplace**, enter `SyncGaze/ai-plugins`, install **SyncGaze MCP** |
+| **Claude Code** | `/plugin marketplace add SyncGaze/ai-plugins`, then `/plugin install syncgaze-mcp@syncgaze` |
+| **Codex / ChatGPT desktop** | `codex plugin marketplace add SyncGaze/ai-plugins`, then install **SyncGaze MCP** from Plugins |
 | **Cursor** | **Add to Cursor** button on https://mail.syncgaze.in/connect-ai/ (Cursor Marketplace listing pending review) |
-| **Gemini CLI** | `gemini extensions install https://github.com/SyncGaze/claude-plugins` |
+| **Gemini CLI** | `gemini extensions install https://github.com/SyncGaze/ai-plugins` |
 | **Any other MCP app** | add the server `https://mcp.syncgaze.in/mcp` |
 
 Then sign in with SyncGaze when asked and choose **Allow**.

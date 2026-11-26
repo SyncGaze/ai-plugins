@@ -1,6 +1,6 @@
 {
   "name": "syncgaze-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Connect your AI to SyncGaze Mail: read, search and draft mail, fix domain and delivery problems. Sending and changes need your approval.",
   "mcpServers": {
     "SyncGaze-MCP": {
