@@ -9,7 +9,8 @@ Nothing is sent, deleted or changed until you approve it on SyncGaze.
 ## Install (one step)
 | App | How |
 |---|---|
-| **Claude app** | Plugins, **Add**, **Add marketplace**, enter `SyncGaze/ai-plugins`, install **SyncGaze MCP** |
+| **Claude (one click)** | [Add to Claude](https://claude.ai/directory/syncgaze) from the Claude directory |
+| **Claude app plugin** | Plugins, **Add**, **Add marketplace**, enter `SyncGaze/ai-plugins`, install **SyncGaze MCP** |
 | **Claude Code** | `/plugin marketplace add SyncGaze/ai-plugins`, then `/plugin install syncgaze-mcp@syncgaze` |
 | **Codex / ChatGPT desktop** | `codex plugin marketplace add SyncGaze/ai-plugins`, then install **SyncGaze MCP** from Plugins |
 | **Cursor** | **Add to Cursor** button on https://mail.syncgaze.in/connect-ai/ (Cursor Marketplace listing pending review) |

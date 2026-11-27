@@ -18,6 +18,11 @@ description: Use when the user works with their SyncGaze email, mailboxes or dom
 - **Forward:** `propose_forward` with the message id, the recipients and an optional note; attachments go too unless the user says otherwise. It waits for the user's approval like a send.
 - **Domain setup:** `onboarding_status` first; it says the next step. Then `get_dns_records`, `check_dns` after the user adds records, `verify_domain`, then `propose_create_mailbox`.
 - **Mail not arriving / going to spam:** `diagnose` with the domain or mailbox; explain each finding and its fix in plain words, with the doc link it returns.
+- **Search:** `search_messages` understands `from:`, `to:`, `subject:`, `has:attachment`, `is:unread`, `is:starred`, `after:YYYY-MM-DD`, `before:YYYY-MM-DD`. Use them instead of reading many messages.
+- **Organise:** `mark_messages` (read/unread, star), `archive_messages`, `move_messages`, `label_messages` act at once without approval and can be undone the same way; nothing goes to Trash. Say what you did and how many. For deleting, use `propose_delete`.
+- **Later send:** `propose_send` with `send_at` schedules it after approval; the user can cancel until then.
+- **Unsubscribe:** `propose_unsubscribe` with the message id; it needs approval, like a send.
+- **Attach a file from another email:** `create_draft` or `update_draft` with `attach_from`.
 - **Attachments:** `get_attachment_text` reads text, PDF, Word, Excel and PowerPoint files (masked like mail).
 - **How-to questions:** `search_docs` then `read_doc` and answer from the SyncGaze help centre, not from memory. If it cannot be fixed, offer `create_support_ticket`.
 
